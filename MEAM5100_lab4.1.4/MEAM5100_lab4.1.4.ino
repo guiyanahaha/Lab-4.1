@@ -8,7 +8,7 @@ HTML510Server h(80);
 #define Motor_channel2 1 
 
 #define Motor_freq 1000  //Motor frequency
-#define Motor_resolution_bits 6 //Motor resolution in bits
+#define Motor_resolution_bits 8 //Motor resolution in bits
 #define Motor_resolution ((1<<Motor_resolution_bits)-1)
 
 WiFiServer server(80);
